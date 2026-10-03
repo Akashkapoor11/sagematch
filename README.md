@@ -1,6 +1,4 @@
-# SageMatch — Grounded Software Advisor
-
-> **Zoftware Hireathon submission** · From messy catalogue data to recommendations you can defend.
+# SageMatch - Grounded Software Advisor
 
 ---
 
