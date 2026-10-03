@@ -89,18 +89,6 @@ The response trace (`api_trace`) exposes which mode each stage used, so judges c
 
 ---
 
-## Demo flow (90 seconds)
-
-| Sec | Action | What to highlight |
-|-----|--------|-------------------|
-| 0–15 | Open dashboard | Quality sidebar: demo catalogue health score shown in the sidebar, duplicates/repairs shown |
-| 15–35 | Enter *"I need software for my business."* | Probing layer: targeted questions with expected-impact %, not generic forms |
-| 35–60 | Enter *"CRM for 20 people + Slack"* | Top-3 cards with score bars, why-it-fits bullets, improve-the-fit gaps |
-| 60–75 | Expand a card's `details` | Per-dimension breakdown + evidence rows with source CSV row |
-| 75–90 | Click *"CRM without Slack"* chip | Negative constraint: no Slack products in results; amber border on relaxed cards |
-
----
-
 ## Architecture
 
 ```
