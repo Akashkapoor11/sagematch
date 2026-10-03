@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools>=70"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sagematch"
+version = "3.0.1"
+description = "Grounded software recommendation engine for the Zoftware Hireathon"
+requires-python = ">=3.12"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+asyncio_mode = "auto"

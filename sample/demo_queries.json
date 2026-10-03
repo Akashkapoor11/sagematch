@@ -1,0 +1,42 @@
+[
+  {
+    "label": "CRM + Slack (fully specified)",
+    "query": "I need a CRM for a 20-person sales team that integrates with Slack.",
+    "answers": {}
+  },
+  {
+    "label": "Project management + Jira + Kanban",
+    "query": "We need project management software for a team of 30 with Jira integration and Kanban boards.",
+    "answers": {}
+  },
+  {
+    "label": "Self-hosted analytics (deployment constraint)",
+    "query": "I need self-hosted analytics with dashboards for 50 users.",
+    "answers": {}
+  },
+  {
+    "label": "Ambiguous request (triggers probing)",
+    "query": "I need software for my business.",
+    "answers": {}
+  },
+  {
+    "label": "Negative integration constraint",
+    "query": "We need a CRM that does not use Slack — our team uses Microsoft Teams only.",
+    "answers": {}
+  },
+  {
+    "label": "Budget-aware HR platform",
+    "query": "Looking for an affordable HR platform for a 50-person company with approvals and Slack.",
+    "answers": {}
+  },
+  {
+    "label": "DevOps + GitHub integration",
+    "query": "We need a DevOps workspace with GitHub integration and workflow automation for an engineering team of 100.",
+    "answers": {}
+  },
+  {
+    "label": "Helpdesk with ticketing for a small team",
+    "query": "Small startup needs a helpdesk with ticketing and knowledge base. Team of 10, budget-conscious.",
+    "answers": {}
+  }
+]
