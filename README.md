@@ -178,18 +178,3 @@ sagematch_/
 ├── README.md
 ├── run.ps1
 └── run.sh
-```
-
-## Kickoff checklist — use the organizer files exactly
-
-When the official catalogue and product-data guideline are provided at kickoff:
-
-1. Upload the official catalogue via the UI or `python backend/scripts/validate_catalog.py <file>`.
-2. Map every official required field to the canonical model in `ALIASES` (`data_pipeline.py`).
-3. Set `REQUIRED_FIELDS` in `.env` to match the organizer schema exactly.
-4. Run `make check` to verify all tests pass and the quality report looks correct.
-5. Test at least: a vague query, a partially specified query, a fully specified query, and a negative-constraint query.
-
-
-## Frontend
-The UI is implemented in React 19.3.0 with Vite 8.3.2. During local development, Vite proxies `/api` to FastAPI. For Vercel, set `VITE_API_BASE_URL` to the deployed FastAPI URL. The backend exposes CORS through `CORS_ALLOWED_ORIGINS`.
