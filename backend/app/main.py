@@ -150,7 +150,7 @@ def home():
     return index_path.read_text(encoding='utf-8')
 
 
-@app.get('/api/health')
+@app.api_route('/api/health', methods=['GET', 'HEAD'])
 def health():
     quality = get_quality_report() or {}
     return {
