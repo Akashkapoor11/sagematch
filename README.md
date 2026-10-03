@@ -30,7 +30,7 @@ Every stage is **deterministic by default**. An optional OpenAI-compatible LLM i
 
 ---
 
-## Judging criteria — implementation map
+## Implementation map
 
 | Criterion | What SageMatch does |
 |-----------|---------------------|
