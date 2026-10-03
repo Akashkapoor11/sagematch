@@ -1,6 +1,5 @@
 # SageMatch - Grounded Software Advisor
 
----
 
 ## The problem in one sentence
 
